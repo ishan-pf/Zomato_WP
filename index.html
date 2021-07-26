@@ -17,7 +17,7 @@
             <div class="navbar__brand">
                 <img src="assets/logo.png" alt="logo" class="navbar__logo">
             </div>
-            <div class="navbar__items"><button class="button__primary">Order Now</button></div>
+            <div class="navbar__items"><button class="button__primary">Order Food</button></div>
         </nav>
     </header>
     <main class="container">
@@ -32,21 +32,27 @@
         </section>
         <br>
         <br>
-        <br>
+        
     
     <section class="resturant__text">
 
-        <p>Your food will be prepared safely with an experienced chef, without compromising on the quality and hygiene. </p>
+        <p >Your food will be prepared safely with an experienced chef, without compromising on the quality and hygiene. </p>
     </section>
 
         
         <section class="explore__menu__container">
-            <h1 class="explore__menu__text">Explore Our Menu</h1>
+            <div class="explore__menu__heading">
+                 <h1 class="explore__menu__text">Explore Our Menu</h1>
+                </div>
+           
+            <div class="explore__menu__text_bg">
+
+            </div>
             <div class="explore__menu__lists">
                 <div class="food__card">
-                    <div class="food__card__image__container">
+                    <!-- <div class="food__card__image__container"> -->
                     <img src="assets/burger.jpg" alt="burger" class="food__card__image">
-                    </div>
+                    <!-- </div> -->
                     <div class="food__card__description">
                         <h3 class="food__title">
                             Burger
@@ -54,33 +60,86 @@
                         <p class="food__title__text">Burger King, Mcdonalds, Burger Place<span style="color:#D83A56;">+3</span></p>
                     </div>
                 </div>
-                <div class="food__card">
-                    <div class="food__card__image__container">
-                    <img src="assets/pizza.jpg" alt="burger" class="food__card__image">
-                    </div>
+                <div class="food__card" id="pizza__card">
+                    <!-- <div class="food__card__image__container"> -->
+                    <img src="assets/pizza.jpg" alt="Pizza" class="food__card__image">
+                    <!-- </div> -->
                     <div class="food__card__description">
                         <h3 class="food__title">
                             Pizza
                         </h3>
-                        <p class="food__title__text">Pizza Hut , Dominos, Hot Pizza King<span style="color:#D83A56;">+6</span></p>
+                        <p class="food__title__text">Pizza Hut , Dominos,<br> Hot Pizza King<span style="color:#D83A56;">+6</span></p>
                     </div>
                 </div>
                 <div class="food__card">
-                    <div class="food__card__image__container">
-                    <img src="assets/iceCream.jpg" alt="burger" class="food__card__image">
-                    </div>
+                    <!-- <div class="food__card__image__container"> -->
+                    <img src="assets/iceCream.jpg" alt="Ice Cream" class="food__card__image">
+                    <!-- </div> -->
                     <div class="food__card__description">
                         <h3 class="food__title">
-                           Ice-Cream
+                           Ice Creams
                         </h3>
                         <p class="food__title__text">Baskin Robins, Amul<span style="color:#D83A56;">+3</span></p>
                     </div>
                 </div>
             </div>
             <div class="explore__menu__more">
-                <button class="button__view_more">View More</button>
+                <button class="button__primary button__view_more">View More</button>
             </div>
         </section>
+
+        <section class="resturant__reviews">
+            <div class="resturant__reviews__text">
+                <h2>Order From 100s of resturants</h2>
+            </div>
+            <div class="resturant__reviews__image__container">
+                <div class="resturant__reviews__image__row1">
+                    <img src="assets/restaurant1.jpg" alt="Image1" class="resturant__reviews__image">
+                    <img src="assets/restaurant.jpg" alt="Image2" class="resturant__reviews__image2">
+                </div>
+                <div class="resturant__reviews__image__row2">
+                    <img src="assets/restaurant4.jpg" alt="Image3" class="resturant__reviews__image3">
+                    <img src="assets/restaurant3.jpg" alt="Image4" class="resturant__reviews__image4">
+                </div>    
+            </div>
+        </section>
+
+        <section class="stay__updated">
+
+            <h1>Stay Updated</h1>
+            <div class="stay__updated__input">  
+
+                <input type="email" name="email" id="emailid" class="stay__updated_email" placeholder="email@email.com">
+
+                <input type="submit" value="Get Updates" class= "button__primary stay__updated_btn">
+            </div>
+          
+        </section>
+
+        <section class="quote__section">
+            <div class="quote__section__overlay"></div>
+            
+
+            <h3 class="quote_image_text">
+                When a man's stomach is full it makes no difference whether he is rich
+                or poor.
+              </h3>
+        </section>
     </main>
+
+    <footer class="footer">
+
+        <img src="assets/logo.png" class="footer__logo" alt="Zomato Logo">
+       
+        <ul class="footer__list">
+            <li>Pricing</li>
+            <li>Terms & Conditions</li>
+            <li>Partnership</li>
+            <li>Career</li>
+            <li>Contact</li>
+        </ul>
+        
+    </footer>
+    <p id="copyright">Copyright &copy by Ishan Gupta. All rights reserved.</p>
 </body>
 </html>
